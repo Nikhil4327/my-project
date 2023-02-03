@@ -1,0 +1,59 @@
+
+    .container{
+        width: 1170px;
+        height:500px;
+        margin: 0px auto;
+        padding: 10px 0px 40px
+    }
+
+    .heading{
+        position: relative;
+        font-family: 'Poppins', sans-serif;
+        color: #242424;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.2em;
+        margin-bottom: 0px;
+        display: inline-block;
+    }
+    
+    .descriptiom{
+        width:1108px;
+        color: #242424;
+    font-size: 19px;
+    line-height: 1.4em;
+    margin-bottom: 35px;
+    font-style: italic;
+    font-family: 'Lora', serif;
+    }
+
+    .flex-container{
+            display: flex;
+            flex-direction: row;
+            gap:24px;
+        
+    }
+    .famousImage{
+        width:270px;
+        height: 248px;
+        border-bottom: 4px solid #0065bd;
+    }
+    .img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .famousTitle{
+    color: #242424;
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    }
+
+    .childCont{
+        width: 270px;
+    }

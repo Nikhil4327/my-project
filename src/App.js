@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import {MainComponent} from './AppStyle'
+import  NavContainer  from './Components/NavBar/index';
+import styled from 'styled-components';
+import './index.css'
+import Banner from './Components/Banner';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MainComponent>
+      <NavContainer/>
+      <ImgContainer>
+      <img src = "http://www.tirupationline.org/public/assets/website/images/main.jpg"></img>
+      </ImgContainer>
+      <Banner/>
+    </MainComponent>
   );
 }
+export default App
+const ImgContainer = styled.div`
+width:100%;
+height:551px;
 
-export default App;
+`

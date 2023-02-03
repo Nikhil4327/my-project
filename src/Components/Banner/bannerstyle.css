@@ -1,0 +1,29 @@
+.banner{
+    width:100%;
+    background-color:#FFC300;
+
+}
+.topComp{
+    width:1170px;
+    padding: 15px 15px;
+    margin: 0px auto;
+}
+h1{
+    position: relative;
+    color: #242424;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin-bottom: 0px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    position: relative;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.8em;
+    font-family: 'Open Sans', sans-serif;
+    width:1108px;
+    margin-top: 0px;
+}
